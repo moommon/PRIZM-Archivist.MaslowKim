@@ -1,0 +1,411 @@
+.inner {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+img {
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Nanum Gothic", sans-serif;
+  height: 3000px;
+  margin: 0;
+}
+
+/* header */
+header {
+  width: 100%;
+  height: 150px;
+  top: 0;
+  position: fixed;
+  background-color: #ffffff;
+  border-bottom: 1px solid #c8c8c8;
+  z-index: 999;
+}
+header > .inner {
+  position: relative;
+  display: flex;
+}
+.logo {
+  margin: 30px 0px;
+}
+.heder-menu-ul {
+  display: flex;
+  position: absolute;
+  right: 0;
+  margin-top: 53px;
+}
+.heder-menu-ul li {
+  margin-left: 20px;
+  list-style: none;
+}
+
+/* buy-space */
+.buy-space {
+  margin-top: 200px;
+}
+.buy-space > .inner {
+  position: relative;
+  display: flex;
+}
+.buy-space .buy-thumnail {
+  margin-right: 78px;
+}
+.buy-space .buy-big-thumnail {
+  margin-bottom: 18px;
+  width: 490px;
+}
+.buy-space .buy-big-thumnail .swiper-pagination {
+  position: absolute;
+  top: 508px;
+}
+.buy-space .buy-big-thumnail .swiper-pagination-bullet {
+  width: 109px;
+  height: 109px;
+  margin-right: 18px;
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  border-radius: 0;
+}
+.buy-space .buy-big-thumnail .swiper-pagination-bullet:nth-child(1) {
+  background-image: url(../images/object_thumbnail_1.png);
+}
+.buy-space .buy-big-thumnail .swiper-pagination-bullet:nth-child(2) {
+  background-image: url(../images/object_thumbnail_2.png);
+}
+.buy-space .buy-big-thumnail .swiper-pagination-bullet:nth-child(3) {
+  background-image: url(../images/object_thumbnail_3.png);
+}
+.buy-space .buy-big-thumnail .swiper-pagination-bullet:last-child {
+  background-image: url(../images/object_thumbnail_4.png);
+  margin-right: 0px;
+}
+.buy-space .buy-big-thumnail .swiper-pagination-bullet-active {
+  opacity: 0.5;
+}
+.buy-space .buy-big-thumnail .swiper-prev,
+.buy-space .buy-big-thumnail .swiper-next {
+  /* color: #333; */
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 230px;
+  cursor: pointer;
+  outline: none;
+  z-index: 1;
+  transition: 0.4s;
+}
+
+.buy-space .buy-big-thumnail .swiper-prev {
+  left: 0;
+}
+.buy-space .buy-big-thumnail .swiper-next {
+  left: 450px;
+}
+.buy-big-thumnail .buy-big-thumnail-img {
+  width: 490px;
+}
+
+/* .buy-thumnail .buy-small-thumnail {
+  display: flex;
+}
+.buy-small-thumnail .buy-small-thumnail-img {
+  width: 109px;
+  margin-right: 18px;
+}
+.buy-small-thumnail .buy-small-thumnail-img:last-child {
+  margin-right: 0px; 
+}*/
+.buy-space .buy-info {
+  width: 432px;
+  height: 617px;
+}
+.buy-space .buy-info .buy-name {
+  font-family: "Pretendard";
+  font-size: 54px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.buy-space .buy-info .sub-name {
+  font-family: "Pretendard";
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.buy-space .buy-info .name-info {
+  font-family: "Pretendard";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  color: #555555;
+}
+.buy-space .buy-info .buy-price {
+  font-family: "Pretendard";
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: right;
+}
+.buy-space .buy-bottom {
+  position: absolute;
+  bottom: 0;
+}
+.buy-space .buy-cart {
+  width: 432px;
+  height: 80px;
+  padding: 10px;
+  border: 1.5px solid #555;
+  color: #555;
+  font-family: "Pretendard";
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  margin-bottom: 18px;
+}
+.buy-space .buy-cart:hover {
+  background-color: #555;
+  color: #fff;
+}
+.buy-space .buy-buy {
+  width: 432px;
+  height: 80px;
+  padding: 10px;
+  border: 1.5px solid #555;
+  color: #555;
+  font-family: "Pretendard";
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.buy-space .buy-buy:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+/* 모바일 */
+/* 모바일 */
+/* 모바일 */
+/* 모바일 */
+/* 모바일 */
+@media (max-width: 800px) {
+  .inner {
+    width: 330px;
+    margin: 0 auto;
+    position: relative;
+  }
+  /* header */
+  header > .inner {
+    position: relative;
+    display: flex;
+  }
+  header {
+    width: 100vw;
+    height: 80px;
+    top: 0;
+    position: fixed;
+    background-color: #ffffff;
+    border-bottom: 1px solid #c8c8c8;
+    z-index: 999;
+  }
+
+  .logo {
+    margin: 15px 0px;
+    width: 144px;
+  }
+  .heder-menu-ul {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: 20px;
+  }
+  .heder-menu-ul li {
+    margin-left: 0px;
+    list-style: none;
+  }
+
+  /* buy-space */
+  .buy-space {
+    width: 100vw;
+    margin-top: 93px;
+  }
+  .buy-space > .inner {
+    position: relative;
+    display: block;
+  }
+  .buy-space .buy-thumnail {
+    width: 330px;
+    margin: 0;
+    display: flex;
+  }
+  .buy-space .buy-big-thumnail {
+    margin-bottom: 18px;
+    width: 260px;
+  }
+  .buy-space .buy-big-thumnail .swiper-pagination {
+    position: absolute;
+    left: 271px;
+    top: 0;
+  }
+  .buy-space .buy-big-thumnail .swiper-pagination-bullet {
+    width: 59px;
+    height: 59px;
+
+    margin-right: 0;
+    margin-bottom: 4.45px;
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    border-radius: 0;
+  }
+  .buy-space .buy-big-thumnail .swiper-pagination-bullet:nth-child(1) {
+    background-image: url(../images/object_thumbnail_1.png);
+  }
+  .buy-space .buy-big-thumnail .swiper-pagination-bullet:nth-child(2) {
+    background-image: url(../images/object_thumbnail_2.png);
+  }
+  .buy-space .buy-big-thumnail .swiper-pagination-bullet:nth-child(3) {
+    background-image: url(../images/object_thumbnail_3.png);
+  }
+  .buy-space .buy-big-thumnail .swiper-pagination-bullet:last-child {
+    background-image: url(../images/object_thumbnail_4.png);
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .buy-space .buy-big-thumnail .swiper-pagination-bullet-active {
+    opacity: 0.5;
+  }
+  .buy-space .buy-big-thumnail .swiper-prev,
+  .buy-space .buy-big-thumnail .swiper-next {
+    /* color: #333; */
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 230px;
+    cursor: pointer;
+    outline: none;
+    z-index: 1;
+    transition: 0.4s;
+  }
+  .buy-space .buy-big-thumnail .swiper-prev,
+  .buy-space .buy-big-thumnail .swiper-next {
+    /* color: #333; */
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 115px;
+    cursor: pointer;
+    outline: none;
+    z-index: 1;
+    transition: 0.4s;
+  }
+
+  .buy-space .buy-big-thumnail .swiper-prev {
+    left: 0;
+  }
+  .buy-space .buy-big-thumnail .swiper-next {
+    left: 220px;
+  }
+
+  .buy-thumnail .buy-small-thumnail {
+    display: inline-block;
+  }
+
+  .buy-big-thumnail .buy-big-thumnail-img {
+    width: 260px;
+  }
+  .buy-small-thumnail .buy-small-thumnail-img {
+    width: 59px;
+    right: 0px;
+    margin: 0 0 8px 11px;
+  }
+  .buy-small-thumnail .buy-small-thumnail-img:last-child {
+    margin-right: 0px;
+  }
+  .buy-space .buy-info {
+    width: 330px;
+    height: 520px;
+  }
+  .buy-space .buy-info .buy-name {
+    font-family: "Pretendard";
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .buy-space .buy-info .sub-name {
+    font-family: "Pretendard";
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .buy-space .buy-info .name-info {
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
+    color: #555555;
+  }
+  .buy-space .buy-info .buy-price {
+    font-family: "Pretendard";
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: right;
+  }
+  .buy-space .buy-bottom {
+    position: absolute;
+    bottom: 0;
+  }
+  .buy-space .buy-cart,
+  .buy-space .buy-buy {
+    width: 330px;
+    height: 70px;
+    padding: 10px;
+    border: 1.5px solid #555;
+    color: #555;
+    font-family: "Pretendard";
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    margin-bottom: 18px;
+  }
+  .buy-space .buy-cart:hover {
+    background-color: #555;
+    color: #fff;
+  }
+  .buy-space .buy-buy:hover {
+    background-color: #555;
+    color: #fff;
+  }
+}
