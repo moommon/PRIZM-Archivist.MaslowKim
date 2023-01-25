@@ -33,9 +33,11 @@ body {
 }
 .hover {
   position: absolute;
+  /* width: 6.5vw; */
+}
+.main-objectimage {
   width: 6.5vw;
 }
-
 .main-object-5:hover + .popup5 {
   display: inline-block;
 }
