@@ -1,411 +1,218 @@
 .inner {
-  width: 1000px;
+  width: 1200px;
   margin: 0 auto;
   position: relative;
 }
-img {
-  display: block;
-}
+
 a {
   text-decoration: none;
 }
 
 body {
-  font-family: "Nanum Gothic", sans-serif;
+  font-family: "Pretendard";
   height: 3000px;
   margin: 0;
+  background-color: #000;
+  height: 13000px;
 }
 
 /* header */
+/* header */
+/* header */
 header {
-  width: 100%;
-  height: 150px;
   top: 0;
+  height: 90px;
+  background-color: #000;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
   position: fixed;
-  background-color: #ffffff;
-  border-bottom: 1px solid #c8c8c8;
-  z-index: 999;
+  z-index: 10;
 }
-header > .inner {
+header .inner .header-logo {
   position: relative;
-  display: flex;
-}
-.logo {
-  margin: 30px 0px;
-}
-.heder-menu-ul {
-  display: flex;
-  position: absolute;
-  right: 0;
-  margin-top: 53px;
-}
-.heder-menu-ul li {
-  margin-left: 20px;
-  list-style: none;
+  left: -8px;
+  top: 7px;
+  width: 140px;
 }
 
-/* buy-space */
-.buy-space {
-  margin-top: 200px;
+.black-block {
+  position: fixed;
+  width: 100vw;
+  height: 75px;
+  background-color: #000;
+  bottom: 0px;
+  z-index: 9;
 }
-.buy-space > .inner {
+
+/* filecover-section */
+/* filecover-section */
+/* filecover-section */
+.filecover-section {
   position: relative;
+  top: 90px;
+  height: 1000px;
+  /* border-bottom: #fff 1px solid; */
+}
+.registration-img {
+  position: relative;
+  width: 500px;
+  left: 600px;
+  margin: 0 auto;
+}
+/* detailmain-section */
+/* detailmain-section */
+/* detailmain-section */
+.detailmain-section {
+  position: relative;
+  top: 100px;
+  height: 3000px;
+}
+/* .detailmain-section .inner {
+} */
+.detailmain-section .inner .detailmain-2div {
   display: flex;
+  width: 600px;
 }
-.buy-space .buy-thumnail {
-  margin-right: 78px;
+
+.detailmain-section .inner .detailmain-2div-L {
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(#222222, #f2f3f3);
+  border-image-slice: 1;
 }
-.buy-space .buy-big-thumnail {
-  margin-bottom: 18px;
-  width: 490px;
+.detailmain-section .inner .detailmain-2div .detailmain-2div-bg {
+  width: 600px;
 }
-.buy-space .buy-big-thumnail .swiper-pagination {
-  position: absolute;
-  top: 508px;
-}
-.buy-space .buy-big-thumnail .swiper-pagination-bullet {
-  width: 109px;
-  height: 109px;
-  margin-right: 18px;
+.detailmain-section .inner .detailmain-2div .detailmain-2div-L-2 {
+  margin-top: -5px;
+  width: 600px;
+  height: 840px;
+  background-image: url("../images/esteem-background03-1.png");
   background-size: cover;
-  background-position: center;
-  opacity: 1;
-  border-radius: 0;
 }
-.buy-space .buy-big-thumnail .swiper-pagination-bullet:nth-child(1) {
-  background-image: url(../images/object_thumbnail_1.png);
+.detailmain-section .inner .detailmain-2div .dm-withebg-text {
+  position: relative;
+  display: inline-block;
+  padding: 5px;
+  background-color: #fff;
+  margin: 0px;
 }
-.buy-space .buy-big-thumnail .swiper-pagination-bullet:nth-child(2) {
-  background-image: url(../images/object_thumbnail_2.png);
-}
-.buy-space .buy-big-thumnail .swiper-pagination-bullet:nth-child(3) {
-  background-image: url(../images/object_thumbnail_3.png);
-}
-.buy-space .buy-big-thumnail .swiper-pagination-bullet:last-child {
-  background-image: url(../images/object_thumbnail_4.png);
-  margin-right: 0px;
-}
-.buy-space .buy-big-thumnail .swiper-pagination-bullet-active {
-  opacity: 0.5;
-}
-.buy-space .buy-big-thumnail .swiper-prev,
-.buy-space .buy-big-thumnail .swiper-next {
-  /* color: #333; */
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 230px;
-  cursor: pointer;
-  outline: none;
-  z-index: 1;
-  transition: 0.4s;
-}
-
-.buy-space .buy-big-thumnail .swiper-prev {
-  left: 0;
-}
-.buy-space .buy-big-thumnail .swiper-next {
-  left: 450px;
-}
-.buy-big-thumnail .buy-big-thumnail-img {
-  width: 490px;
-}
-
-/* .buy-thumnail .buy-small-thumnail {
-  display: flex;
-}
-.buy-small-thumnail .buy-small-thumnail-img {
-  width: 109px;
-  margin-right: 18px;
-}
-.buy-small-thumnail .buy-small-thumnail-img:last-child {
-  margin-right: 0px; 
-}*/
-.buy-space .buy-info {
-  width: 432px;
-  height: 617px;
-}
-.buy-space .buy-info .buy-name {
-  font-family: "Pretendard";
-  font-size: 54px;
+.detailmain-section .inner .detailmain-2div .dm-withebg-text.dm-title {
+  left: 30px;
+  top: 30px;
   font-weight: 600;
-  margin-bottom: 10px;
+  font-size: 22px;
 }
-.buy-space .buy-info .sub-name {
-  font-family: "Pretendard";
-  font-size: 32px;
+.detailmain-section .inner .detailmain-2div .dm-withebg-text.dm-content {
+  left: 30px;
+  top: 50px;
+  width: 532px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+}
+.detailmain-section .inner .detailmain-2div .dm-drawing-1 {
+  display: inline-block;
+  width: 455px;
+  position: relative;
+  top: 80px;
+  left: 70px;
+  margin: 0 auto;
+}
+.detailmain-section .inner .detailmain-2div .dm-withebg-text.dm-sub-content {
+  left: 30px;
+  top: 50px;
+  width: 310px;
   font-weight: 500;
-  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 19px;
 }
-.buy-space .buy-info .name-info {
-  font-family: "Pretendard";
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 34px;
-  color: #555555;
-}
-.buy-space .buy-info .buy-price {
-  font-family: "Pretendard";
-  font-size: 36px;
+.detailmain-section .inner .detailmain-2div .dm-withebg-text.dm-use {
+  left: 100px;
+  top: 80px;
+  width: 370px;
   font-weight: 500;
-  margin-bottom: 20px;
-  text-align: right;
+  font-size: 12px;
+  line-height: 19px;
 }
-.buy-space .buy-bottom {
+.detailmain-section .inner .detailmain-2div .dm-withebg-text.dm-use p {
+  margin: 0;
+}
+.detailmain-section
+  .inner
+  .detailmain-2div
+  .dm-withebg-text.dm-use
+  p:first-child {
+  margin-bottom: 3px;
+  font-weight: 600;
+}
+.detailmain-section .inner .detailmain-2div .detailmain-2div-R-2 {
+  margin-top: -5px;
+  width: 600px;
+  height: 840px;
+  background-image: url("../images/esteem-background04.png");
+  background-size: cover;
+}
+.detailmain-1div {
+  width: 1200px;
+  height: 7000px;
+  margin-top: -20px;
+  background-image: url("../images/esteem-background05.png");
+  background-size: 1200px;
+}
+
+/* 시퀀스 */
+/* 시퀀스 */
+/* 시퀀스 */
+/* 시퀀스 */
+/* 시퀀스 */
+/* 시퀀스 */
+
+.fix_motion {
+  position: relative;
+  top: -150px;
+  height: 7000px;
+}
+.fix_motion .fix_wrap {
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+.fix_motion .fix_wrap .cont_box {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+.fix_motion .fix_wrap .cont_box .canvas_wrap {
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+}
+.fix_motion .fix_wrap .cont_box .canvas_wrap canvas {
   position: absolute;
-  bottom: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
-.buy-space .buy-cart {
-  width: 432px;
-  height: 80px;
-  padding: 10px;
-  border: 1.5px solid #555;
-  color: #555;
-  font-family: "Pretendard";
-  font-size: 20px;
-  font-weight: 500;
-  cursor: pointer;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 0.4s;
-  margin-bottom: 18px;
-}
-.buy-space .buy-cart:hover {
-  background-color: #555;
-  color: #fff;
-}
-.buy-space .buy-buy {
-  width: 432px;
-  height: 80px;
-  padding: 10px;
-  border: 1.5px solid #555;
-  color: #555;
-  font-family: "Pretendard";
-  font-size: 20px;
-  font-weight: 500;
-  cursor: pointer;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 0.4s;
-}
-.buy-space .buy-buy:hover {
-  background-color: #555;
-  color: #fff;
+.fix_motion .fix_wrap .cont_box .canvas_wrap .no_canvas {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 500px;
+  height: 500px;
+  transform: translate(-50%, -50%);
 }
 
-/* 모바일 */
-/* 모바일 */
-/* 모바일 */
-/* 모바일 */
-/* 모바일 */
-@media (max-width: 800px) {
-  .inner {
-    width: 330px;
-    margin: 0 auto;
-    position: relative;
-  }
-  /* header */
-  header > .inner {
-    position: relative;
-    display: flex;
-  }
-  header {
-    width: 100vw;
-    height: 80px;
-    top: 0;
-    position: fixed;
-    background-color: #ffffff;
-    border-bottom: 1px solid #c8c8c8;
-    z-index: 999;
-  }
-
-  .logo {
-    margin: 15px 0px;
-    width: 144px;
-  }
-  .heder-menu-ul {
-    display: inline-block;
-    position: absolute;
-    right: 0;
-    margin-top: 20px;
-  }
-  .heder-menu-ul li {
-    margin-left: 0px;
-    list-style: none;
-  }
-
-  /* buy-space */
-  .buy-space {
-    width: 100vw;
-    margin-top: 93px;
-  }
-  .buy-space > .inner {
-    position: relative;
-    display: block;
-  }
-  .buy-space .buy-thumnail {
-    width: 330px;
-    margin: 0;
-    display: flex;
-  }
-  .buy-space .buy-big-thumnail {
-    margin-bottom: 18px;
-    width: 260px;
-  }
-  .buy-space .buy-big-thumnail .swiper-pagination {
-    position: absolute;
-    left: 271px;
-    top: 0;
-  }
-  .buy-space .buy-big-thumnail .swiper-pagination-bullet {
-    width: 59px;
-    height: 59px;
-
-    margin-right: 0;
-    margin-bottom: 4.45px;
-    background-size: cover;
-    background-position: center;
-    opacity: 1;
-    border-radius: 0;
-  }
-  .buy-space .buy-big-thumnail .swiper-pagination-bullet:nth-child(1) {
-    background-image: url(../images/object_thumbnail_1.png);
-  }
-  .buy-space .buy-big-thumnail .swiper-pagination-bullet:nth-child(2) {
-    background-image: url(../images/object_thumbnail_2.png);
-  }
-  .buy-space .buy-big-thumnail .swiper-pagination-bullet:nth-child(3) {
-    background-image: url(../images/object_thumbnail_3.png);
-  }
-  .buy-space .buy-big-thumnail .swiper-pagination-bullet:last-child {
-    background-image: url(../images/object_thumbnail_4.png);
-    margin-right: 0px;
-    margin-bottom: 0px;
-  }
-  .buy-space .buy-big-thumnail .swiper-pagination-bullet-active {
-    opacity: 0.5;
-  }
-  .buy-space .buy-big-thumnail .swiper-prev,
-  .buy-space .buy-big-thumnail .swiper-next {
-    /* color: #333; */
-    width: 42px;
-    height: 42px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 230px;
-    cursor: pointer;
-    outline: none;
-    z-index: 1;
-    transition: 0.4s;
-  }
-  .buy-space .buy-big-thumnail .swiper-prev,
-  .buy-space .buy-big-thumnail .swiper-next {
-    /* color: #333; */
-    width: 42px;
-    height: 42px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 115px;
-    cursor: pointer;
-    outline: none;
-    z-index: 1;
-    transition: 0.4s;
-  }
-
-  .buy-space .buy-big-thumnail .swiper-prev {
-    left: 0;
-  }
-  .buy-space .buy-big-thumnail .swiper-next {
-    left: 220px;
-  }
-
-  .buy-thumnail .buy-small-thumnail {
-    display: inline-block;
-  }
-
-  .buy-big-thumnail .buy-big-thumnail-img {
-    width: 260px;
-  }
-  .buy-small-thumnail .buy-small-thumnail-img {
-    width: 59px;
-    right: 0px;
-    margin: 0 0 8px 11px;
-  }
-  .buy-small-thumnail .buy-small-thumnail-img:last-child {
-    margin-right: 0px;
-  }
-  .buy-space .buy-info {
-    width: 330px;
-    height: 520px;
-  }
-  .buy-space .buy-info .buy-name {
-    font-family: "Pretendard";
-    font-size: 32px;
-    font-weight: 600;
-    margin-bottom: 10px;
-  }
-  .buy-space .buy-info .sub-name {
-    font-family: "Pretendard";
-    font-size: 22px;
-    font-weight: 500;
-    margin-bottom: 10px;
-  }
-  .buy-space .buy-info .name-info {
-    font-family: "Pretendard";
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 34px;
-    color: #555555;
-  }
-  .buy-space .buy-info .buy-price {
-    font-family: "Pretendard";
-    font-size: 32px;
-    font-weight: 500;
-    margin-bottom: 20px;
-    text-align: right;
-  }
-  .buy-space .buy-bottom {
-    position: absolute;
-    bottom: 0;
-  }
-  .buy-space .buy-cart,
-  .buy-space .buy-buy {
-    width: 330px;
-    height: 70px;
-    padding: 10px;
-    border: 1.5px solid #555;
-    color: #555;
-    font-family: "Pretendard";
-    font-size: 20px;
-    font-weight: 500;
-    cursor: pointer;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.4s;
-    margin-bottom: 18px;
-  }
-  .buy-space .buy-cart:hover {
-    background-color: #555;
-    color: #fff;
-  }
-  .buy-space .buy-buy:hover {
-    background-color: #555;
-    color: #fff;
-  }
-}
+/* 시퀀스 */
+/* 시퀀스 */
+/* 시퀀스 */
