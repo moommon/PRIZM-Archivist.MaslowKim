@@ -164,6 +164,68 @@ header .inner .header-logo {
   background-image: url("../images/esteem-background05.png");
   background-size: 1200px;
 }
+.detailmain-section .inner .detailmain-2div .detailmain-2div-R-2 .dm-text {
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 30px 0 30px;
+}
+.detailmain-section
+  .inner
+  .detailmain-2div
+  .detailmain-2div-R-2
+  .dm-text.dm-record-title {
+  top: 42px;
+}
+.detailmain-section
+  .inner
+  .detailmain-2div
+  .detailmain-2div-R-2
+  .dm-text.dm-record-date {
+  top: 60px;
+  right: -135px;
+}
+.detailmain-section
+  .inner
+  .detailmain-2div
+  .detailmain-2div-R-2
+  .dm-text.dm-record {
+  display: block;
+  top: 70px;
+  margin: 0;
+}
+.detailmain-section
+  .inner
+  .detailmain-2div
+  .detailmain-2div-R-2
+  .dm-text.dm-record-content-date {
+  font-weight: 500;
+  text-decoration-line: underline;
+
+  margin-bottom: 5px;
+  padding-bottom: 5;
+  padding-left: 30px;
+}
+.detailmain-section
+  .inner
+  .detailmain-2div
+  .detailmain-2div-R-2
+  .dm-text.dm-record-content {
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.detailmain-section
+  .inner
+  .detailmain-2div
+  .detailmain-2div-R-2
+  .dm-text.dm-record-footnote {
+  display: block;
+  position: relative;
+  bottom: -300px;
+  border-top: 1px solid #000;
+  padding-top: 10px;
+}
 
 /* 시퀀스 */
 /* 시퀀스 */
