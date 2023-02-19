@@ -27,8 +27,8 @@ $(function () {
   var canvas = document.createElement("canvas");
   var ctx = canvas.getContext("2d");
   var el = document.querySelector(".canvas_wrap");
-  var imgLength = 90;
-  var imgSrc = "./images/seq/권경록seq/esteem01_";
+  var imgLength = 71;
+  var imgSrc = "./images/seq/est02-seq/est02-";
   var imgFormat = ".png";
   var imgArray = [];
   var imageIterlator = 0;
@@ -78,12 +78,11 @@ $(function () {
   function renderCanvas(sequence) {
     ctx.clearRect(0, 0, imgWidth, imgHeight);
     ctx.drawImage(imgArray[sequence], 0, 0, imgWidth, imgHeight);
-    console.log(imgArray[sequence]);
+    // console.log(imgArray[sequence]);
   }
 
   function init() {
     el.appendChild(canvas);
-
     for (var i = 0; i <= imgLength; i++) {
       var img = new Image();
       var path = imgSrc + i + imgFormat;
@@ -103,5 +102,50 @@ $(function () {
       };
     }
   }
+  init();
+});
+
+$(function () {
+  var scrollBody = $("body");
+  var scrollHeight;
+  var scrollRealHeight;
+  var winScrollTop;
+  var percent;
+
+  const detailmain = document.querySelector(".detailmain-section");
+  const filecover = document.querySelector(".registration-img");
+  const blackbg = document.querySelector(".black-bg");
+  function setProperty() {
+    scrollHeight = scrollBody.height();
+    scrollRealHeight = scrollHeight - $(window).height();
+    winScrollTop = $(window).scrollTop();
+    var scrollPercent = winScrollTop / scrollRealHeight;
+    percent = scrollPercent * 100;
+    console.log(percent);
+    if ((percent > 5 && percent < 15) || percent > 80) {
+      blackbg.style.background = "#000";
+    } else blackbg.style.background = "transparent";
+
+    if (percent == 0 || percent < 3) {
+      filecover.classList.add("movY");
+    } else filecover.classList.remove("movY");
+
+    if (percent > 3) {
+      filecover.classList.remove("movY");
+    }
+  }
+
+  function motionGgang() {
+    setProperty();
+  }
+
+  function init() {
+    motionGgang();
+  }
+
+  $(window).scroll(function (e) {
+    motionGgang();
+  });
+
   init();
 });
