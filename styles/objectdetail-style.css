@@ -327,26 +327,18 @@ header .inner .header-logo {
   .inner
   .detailmain-1div
   .object-items
-  .object-item.esteem01-item-01 {
-  width: 1150px;
-  left: 100px;
+  .object-item.est02-item-01 {
+  width: 600px;
+  left: 600px;
 }
 .detailmain-section
   .inner
   .detailmain-1div
   .object-items
-  .object-item.esteem01-item-02 {
-  width: 1000px;
-  left: 300px;
-}
-
-.detailmain-section
-  .inner
-  .detailmain-1div
-  .object-items
-  .object-item.esteem01-item-03 {
+  .object-item.est02-item-02 {
+  top: 1100px;
   width: 700px;
-  top: 1000px;
+  left: 30px;
 }
 
 /* object-video */
