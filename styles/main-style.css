@@ -90,6 +90,13 @@ header .inner .header-logo {
 .slider li:first-child {
   width: 1200px;
   margin: 0 200px 0 0;
+  transition: 0.4s;
+}
+.slider li:first-child:hover {
+  transition: 0.4s;
+  width: 1200px;
+  margin: 0 200px 0 0;
+  top: -20px;
 }
 
 .scroll-logo .logoimg {
@@ -99,7 +106,7 @@ header .inner .header-logo {
   height: 300px;
   width: 300px;
   transition: 0.3s;
-  margin-top: 50px;
+  margin-top: 100px;
   display: block;
 }
 .scroll-box:hover {
@@ -195,12 +202,11 @@ header .inner .header-logo {
 
 .indicator {
   position: absolute;
-  left: 50%;
-  bottom: 20%;
-  transform: translateX(-50%);
-  width: 80%;
-  height: 6px;
-  border-bottom: 1px solid #000;
+  /* left: 50%; */
+  bottom: 0%;
+  /* transform: translateX(-50%); */
+  width: 100%;
+  height: 15px;
   padding-top: 1px;
 }
 
@@ -208,7 +214,7 @@ header .inner .header-logo {
   position: absolute;
   left: 0;
   top: 0;
-  height: 8px;
+  height: 20px;
   width: 100%;
   background: #000;
   clip-path: polygon(0% 0%, 10px 0%, 10px 100%, 0% 100%);

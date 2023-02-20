@@ -1,0 +1,150 @@
+.pre {
+  font-family: "pretendard";
+}
+.mill {
+  font-family: "miller-text";
+  font-style: italic;
+  display: inline;
+  margin: 0;
+}
+.footnote-num {
+  font-family: "miller-text";
+  font-style: italic;
+  font-size: 4px;
+  vertical-align: super;
+  margin-right: 1px;
+}
+.detailmain-section .inner .detailmain-2div .dm-withebg-text {
+  position: relative;
+  display: inline-block;
+  padding: 5px;
+  background-color: #fff;
+  margin: 0px;
+}
+.detailmain-section .inner .detailmain-2div .dm-withebg-text.dm-title {
+  left: 30px;
+  top: 30px;
+  font-weight: 700;
+  font-size: 24px;
+  padding-top: 3px;
+}
+.detailmain-section
+  .inner
+  .detailmain-2div
+  .dm-withebg-text.dm-title
+  .dm-title-num {
+  font-family: "miller-text", serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 24px;
+}
+.detailmain-section .inner .detailmain-2div .dm-withebg-text.dm-title-sub {
+  position: absolute;
+  text-align: right;
+  right: 30px;
+  top: 25px;
+  font-family: "miller-text", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 10px;
+  padding: 3px;
+}
+.detailmain-section .inner .detailmain-2div .dm-content {
+  left: 30px;
+  top: 50px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+}
+.detailmain-section .inner .detailmain-2div .dm-use {
+  position: relative;
+  left: 30px;
+  top: 80px;
+  width: 370px;
+  font-size: 12px;
+}
+.detailmain-section .inner .detailmain-2div .dm-use .dm-use-title {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.detailmain-section .inner .detailmain-2div .dm-use .dm-use-cont {
+  font-weight: 500;
+  line-height: 18px;
+  margin-bottom: 15px;
+}
+.detailmain-section .inner .detailmain-2div .detailmain-2div-R-2 .dm-text {
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 40px 0 40px;
+}
+.detailmain-section
+  .inner
+  .detailmain-2div
+  .detailmain-2div-R-2
+  .dm-text.dm-record-title {
+  top: 42px;
+}
+.detailmain-section
+  .inner
+  .detailmain-2div
+  .detailmain-2div-R-2
+  .dm-text.dm-record-date {
+  top: 40px;
+  right: -280px;
+  font-family: "miller-text";
+  font-size: 14px;
+}
+.detailmain-section
+  .inner
+  .detailmain-2div
+  .detailmain-2div-R-2
+  .dm-text.dm-record {
+  display: block;
+  top: 45px;
+  margin: 0;
+}
+.detailmain-section
+  .inner
+  .detailmain-2div
+  .detailmain-2div-R-2
+  .dm-text.dm-record-content-box {
+  margin: 0 0 20px 0;
+}
+.detailmain-section
+  .inner
+  .detailmain-2div
+  .detailmain-2div-R-2
+  .dm-text.dm-record-content-date {
+  font-family: "miller-text";
+  font-style: italic;
+  font-weight: 600;
+  text-decoration-line: underline;
+  margin-bottom: 8px;
+  padding-left: 50px;
+}
+.detailmain-section
+  .inner
+  .detailmain-2div
+  .detailmain-2div-R-2
+  .dm-text.dm-record-content {
+  width: 460px;
+  font-weight: 400;
+  line-height: 21px;
+  margin: 0 0 8px 40px;
+  font-size: 13.5px;
+}
+.detailmain-section
+  .inner
+  .detailmain-2div
+  .detailmain-2div-R-2
+  .dm-text.dm-record-footnote {
+  display: block;
+  position: absolute;
+  top: 800px;
+  border-top: 1px solid #000;
+  padding-top: 10px;
+  width: 470px;
+  font-size: 10px;
+}
