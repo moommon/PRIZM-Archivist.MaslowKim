@@ -8,22 +8,22 @@
     position: absolute;
   }
   header {
-    width: 100%;
+    width: 100vw;
     height: 80px;
     position: fixed;
   }
   header .inner .index {
     position: relative;
     top: 7px;
-    width: 30px;
+    width: 20px;
     padding: 5px;
-    left: 10px;
+    left: 15px;
   }
   header .inner .header-logo {
     position: relative;
-    left: -8px;
-    top: 5px;
-    width: 80px;
+    left: calc(50vw - 60px);
+    top: 2px;
+    width: 60px;
   }
   .black-bg {
     width: 100%;
@@ -44,7 +44,7 @@
     width: calc(100vw - 20px);
     margin: 0 auto;
     top: -580px;
-    transform: translateY(0) rotate(20deg);
+    transform: translateY(0) rotate(0deg);
     transition: 1s;
   }
 
@@ -68,7 +68,6 @@
     border-left-width: 0px;
     border-bottom-width: 0px;
     border-right-width: 1px;
-    border-style: solid;
     border-image: linear-gradient(#222222, #f2f3f3);
     border-image-slice: 1;
     box-sizing: border-box;
@@ -79,16 +78,11 @@
     height: 140vw;
     background-image: url("../images/phy-backgroundL.png");
     background-size: 100vw;
+    margin-bottom: 30px;
   }
   .detailmain-section .inner .detailmain-2div .detailmain-2div-L-2 .div2-inner {
     width: 420px;
     margin: 0 30px;
-  }
-  .detailmain-section .inner .detailmain-2div .dm-content {
-    width: calc(100vw - 70px);
-  }
-  .detailmain-section .inner .detailmain-2div .dm-use {
-    width: 200px;
   }
   .detailmain-section .inner .detailmain-2div .dm-drawing-1 {
     display: inline-block;
@@ -101,39 +95,10 @@
   .detailmain-section .inner .detailmain-2div .detailmain-2div-R-2 {
     margin-top: -5px;
     width: 100vw;
-    height: 840px;
+    height: 160vw;
     background-image: url("../images/phy-backgroundR.png");
     background-size: 100vw;
-  }
-  .detailmain-section
-    .inner
-    .detailmain-2div
-    .detailmain-2div-R-2
-    .dm-text.dm-record-date {
-    top: 40px;
-    right: 0px;
-    font-family: "miller-text";
-    font-size: 14px;
-  }
-  .detailmain-section
-    .inner
-    .detailmain-2div
-    .detailmain-2div-R-2
-    .dm-text.dm-record-content {
-    width: calc(100vw - 70px);
-  }
-  .detailmain-section
-    .inner
-    .detailmain-2div
-    .detailmain-2div-R-2
-    .dm-text.dm-record-footnote {
-    display: block;
-    position: absolute;
-    top: 1450px;
-    border-top: 1px solid #000;
-    padding-top: 10px;
-    width: 80vw;
-    font-size: 10px;
+    position: relative;
   }
 
   /* 시퀀스 */
@@ -183,6 +148,11 @@
     text-align: center;
     top: 6900px;
   }
+  .profile .profile-img {
+    width: 150px;
+    display: inline-block;
+    margin-top: 170px;
+  }
 
   /* item */
   .detailmain-section
@@ -218,5 +188,160 @@
     top: 1100px;
     width: 500px;
     left: 650px;
+  }
+
+  /* text */
+  .pre {
+    font-family: "pretendard";
+  }
+  .mill {
+    font-family: "miller-text";
+    font-style: italic;
+    display: inline;
+    margin: 0;
+  }
+  .footnote-num {
+    font-family: "miller-text";
+    font-style: italic;
+    font-size: 4px;
+    vertical-align: super;
+    margin-right: 1px;
+  }
+  .detailmain-section .inner .detailmain-2div .dm-withebg-text {
+    position: relative;
+    display: inline-block;
+    padding: 4px;
+    background-color: #fff;
+    margin: 0px;
+  }
+  .detailmain-section .inner .detailmain-2div .dm-withebg-text.dm-title {
+    left: 30px;
+    top: 30px;
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 1px;
+  }
+  .detailmain-section
+    .inner
+    .detailmain-2div
+    .dm-withebg-text.dm-title
+    .dm-title-num {
+    font-family: "miller-text", serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 18px;
+  }
+  .detailmain-section .inner .detailmain-2div .dm-withebg-text.dm-title-sub {
+    position: absolute;
+    text-align: right;
+    right: 30px;
+    top: 25px;
+    font-family: "miller-text", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 8px;
+    padding: 3px;
+  }
+  .detailmain-section .inner .detailmain-2div .dm-content {
+    width: calc(100vw - 70px);
+    left: 30px;
+    top: 50px;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 20px;
+  }
+  .detailmain-section .inner .detailmain-2div .dm-use {
+    position: relative;
+    width: 260px;
+    left: 30px;
+    top: 80px;
+    font-size: 9px;
+  }
+  .detailmain-section .inner .detailmain-2div .dm-use .dm-use-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  .detailmain-section .inner .detailmain-2div .dm-use .dm-use-cont {
+    font-weight: 500;
+    line-height: 14px;
+    margin-bottom: 15px;
+  }
+  .detailmain-section .inner .detailmain-2div .detailmain-2div-R-2 .dm-text {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 40px 0 40px;
+  }
+  .detailmain-section
+    .inner
+    .detailmain-2div
+    .detailmain-2div-R-2
+    .dm-text.dm-record-title {
+    top: 42px;
+  }
+  .detailmain-section
+    .inner
+    .detailmain-2div
+    .detailmain-2div-R-2
+    .dm-text.dm-record-date {
+    position: relative;
+    top: 40px;
+    right: 0px;
+    font-family: "miller-text";
+    font-size: 10px;
+  }
+  .detailmain-section
+    .inner
+    .detailmain-2div
+    .detailmain-2div-R-2
+    .dm-text.dm-record {
+    display: block;
+    top: 45px;
+    margin: 0;
+  }
+  .detailmain-section
+    .inner
+    .detailmain-2div
+    .detailmain-2div-R-2
+    .dm-text.dm-record-content-box {
+    margin: 0 0 10px 0;
+  }
+  .detailmain-section
+    .inner
+    .detailmain-2div
+    .detailmain-2div-R-2
+    .dm-text.dm-record-content-date {
+    font-family: "miller-text";
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration-line: underline;
+    margin-bottom: 4px;
+    padding-left: 30px;
+  }
+  .detailmain-section
+    .inner
+    .detailmain-2div
+    .detailmain-2div-R-2
+    .dm-text.dm-record-content {
+    width: calc(100vw - 70px);
+    font-weight: 400;
+    line-height: 16.5px;
+    margin: 0 0 5px 40px;
+    font-size: 10.5px;
+  }
+  .detailmain-section
+    .inner
+    .detailmain-2div
+    .detailmain-2div-R-2
+    .dm-text.dm-record-footnote {
+    display: block;
+    position: relative;
+    top: 80px;
+    border-top: 1px solid #000;
+    padding-top: 10px;
+    width: 80vw;
+    font-size: 10px;
   }
 }
