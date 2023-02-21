@@ -1,0 +1,86 @@
+/* 모바일 */
+/* 모바일 */
+/* 모바일 */
+@media (max-width: 800px) {
+  .inner {
+    width: 100vw;
+    margin: 0 auto;
+    position: relative;
+  }
+  header {
+    width: 100%;
+    height: 80px;
+  }
+  header .inner .logo {
+    width: 100px;
+  }
+
+  /* filecover-section */
+  .filecover-section {
+    position: relative;
+    top: 90px;
+    height: 800px;
+    z-index: 2;
+  }
+  .filecover-section .registration-img {
+    position: relative;
+    display: block;
+    width: calc(100vw - 20px);
+    margin: 0 auto;
+    top: -580px;
+    transform: translateY(0) rotate(20deg);
+    transition: 1s;
+  }
+
+  /* detailmain-section */
+  .detailmain-section {
+    position: relative;
+    top: 100px;
+    background-color: transparent;
+    transition: 0.4s;
+  }
+  .detailmain-section .inner .detailmain-2div {
+    padding-top: 100px;
+    display: inline-block;
+    width: 100vw;
+    position: relative;
+  }
+  .detailmain-section .inner .detailmain-2div .detailmain-2div-L {
+    position: relative;
+    width: 100vw;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(#222222, #f2f3f3);
+    border-image-slice: 1;
+    box-sizing: border-box;
+  }
+  .detailmain-section .inner .detailmain-2div .detailmain-2div-L-2 {
+    margin-top: -5px;
+    width: 100vw;
+    height: 140vw;
+    background-image: url("../images/phy-backgroundL.png");
+    background-size: 100vw;
+  }
+  .detailmain-section .inner .detailmain-2div .detailmain-2div-L-2 .div2-inner {
+    width: 420px;
+    margin: 0 30px;
+  }
+  .detailmain-section .inner .detailmain-2div .dm-drawing-1 {
+    display: inline-block;
+    width: 200px;
+    position: relative;
+    top: 80px;
+    left: 70px;
+    margin: 0 auto;
+  }
+  .detailmain-section .inner .detailmain-2div .detailmain-2div-R-2 {
+    margin-top: -5px;
+    width: 100vw;
+    height: 840px;
+    background-image: url("../images/phy-backgroundR.png");
+    background-size: 100vw;
+  }
+}
