@@ -17,6 +17,11 @@ body {
   background-size: 100%;
   background-attachment: fixed;
 }
+@media (max-width: 800px) {
+  body {
+    background-image: url("../images/phy-background-m.png");
+  }
+}
 p {
   margin: 0px;
 }

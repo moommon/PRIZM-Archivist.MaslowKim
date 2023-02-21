@@ -5,16 +5,32 @@
   .inner {
     width: 100vw;
     margin: 0 auto;
-    position: relative;
+    position: absolute;
   }
   header {
     width: 100%;
     height: 80px;
+    position: fixed;
   }
-  header .inner .logo {
-    width: 100px;
+  header .inner .index {
+    position: relative;
+    top: 7px;
+    width: 30px;
+    padding: 5px;
+    left: 10px;
   }
-
+  header .inner .header-logo {
+    position: relative;
+    left: -8px;
+    top: 5px;
+    width: 80px;
+  }
+  .black-bg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    transition: 0.5s;
+  }
   /* filecover-section */
   .filecover-section {
     position: relative;
@@ -68,9 +84,15 @@
     width: 420px;
     margin: 0 30px;
   }
+  .detailmain-section .inner .detailmain-2div .dm-content {
+    width: calc(100vw - 70px);
+  }
+  .detailmain-section .inner .detailmain-2div .dm-use {
+    width: 200px;
+  }
   .detailmain-section .inner .detailmain-2div .dm-drawing-1 {
     display: inline-block;
-    width: 200px;
+    width: 60vw;
     position: relative;
     top: 80px;
     left: 70px;
@@ -82,5 +104,119 @@
     height: 840px;
     background-image: url("../images/phy-backgroundR.png");
     background-size: 100vw;
+  }
+  .detailmain-section
+    .inner
+    .detailmain-2div
+    .detailmain-2div-R-2
+    .dm-text.dm-record-date {
+    top: 40px;
+    right: 0px;
+    font-family: "miller-text";
+    font-size: 14px;
+  }
+  .detailmain-section
+    .inner
+    .detailmain-2div
+    .detailmain-2div-R-2
+    .dm-text.dm-record-content {
+    width: calc(100vw - 70px);
+  }
+  .detailmain-section
+    .inner
+    .detailmain-2div
+    .detailmain-2div-R-2
+    .dm-text.dm-record-footnote {
+    display: block;
+    position: absolute;
+    top: 1450px;
+    border-top: 1px solid #000;
+    padding-top: 10px;
+    width: 80vw;
+    font-size: 10px;
+  }
+
+  /* 시퀀스 */
+  canvas {
+    width: 100vw;
+    height: 100vw;
+  }
+  /* detailmain-1div */
+  .detailmain-section .inner .detailmain-1div {
+    width: 100vw;
+  }
+  .detailmain-section .inner .detailmain-1div .object-items .object-item {
+    width: 100px;
+    position: absolute;
+    left: 0px;
+  }
+
+  /* object-video */
+
+  .object-video {
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    top: 7400px;
+  }
+  .object-video .video {
+    width: 100vw;
+    height: 56.25vw;
+  }
+
+  /* footer */
+  footer .inner .prizm {
+    margin-left: 20px;
+    width: 300px;
+  }
+  footer .inner .name-list {
+    display: none;
+  }
+
+  /* profile */
+  .profile {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+    top: 6900px;
+  }
+
+  /* item */
+  .detailmain-section
+    .inner
+    .detailmain-1div
+    .object-items
+    .object-item.phy01-item-01 {
+    width: 300px;
+    left: 0;
+  }
+  .detailmain-section
+    .inner
+    .detailmain-1div
+    .object-items
+    .object-item.phy01-item-02 {
+    top: 1100px;
+    width: 300px;
+    left: 0px;
+  }
+  .detailmain-section
+    .inner
+    .detailmain-1div
+    .object-items
+    .object-item.phy02-item-01 {
+    width: 450px;
+    left: 30px;
+  }
+  .detailmain-section
+    .inner
+    .detailmain-1div
+    .object-items
+    .object-item.phy02-item-02 {
+    top: 1100px;
+    width: 500px;
+    left: 650px;
   }
 }
