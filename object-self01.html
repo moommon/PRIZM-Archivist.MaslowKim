@@ -28,6 +28,12 @@
     <!-- millertext -->
     <link rel="stylesheet" href="https://use.typekit.net/odv0izl.css" />
 
+    <!-- 나눔명조 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- js -->
     <script defer src="js/object-self01.js"></script>
     <link
       rel="stylesheet"
@@ -45,10 +51,10 @@
   <body>
     <header>
       <div class="inner">
-        <a href="./intro.html">
+        <a href="./main.html">
           <img class="index" src="images/back-button.png" />
         </a>
-        <a href="./main.html">
+        <a href="./intro.html">
           <img
             class="header-logo"
             src="images/archivistmaslowkim_logo_white.png"
@@ -70,7 +76,7 @@
                 </p>
                 <p class="dm-withebg-text dm-title-sub">(5) self-actualization</p>
                 <p class="dm-withebg-text dm-content">
-                  오브젝트를 통해 명상을 진행할 시 24시간 동안 목표한 투두 리스트중 80%를 달성할 수 있다. 전체 목표중<br>
+                  오브젝트를 통해 명상을 진행할 시 24시간 동안 목표한 투두 리스트중 80%를 달성할 수 있다. 전체 목표중
                   80%를 달성하는 즉시, 5시간 동안 멍을 때리게 된다.
                 </p>
                 <img class="dm-drawing-1" src="images/obj-pixel-self01.png" />
@@ -95,13 +101,13 @@
                 <div class="dm-text dm-record-content-box">
                   <p class="dm-text dm-record-content-date">MCM30. 03. 04.</p>
                   <p class="dm-text dm-record-content">
-                    골동품 가게 로고 재단장을 위해, 이웃집 가게 점장님들을 통해 프리랜서 디자이너 김은빈을 소개받았다. 김은빈은 가게에 방문하여 이곳저곳 살피며 촬영하였다. 그녀는 사진들 중 하나를 꼽으며 맘에 든다고 하였고, 그 속에는 명상 기기인 ‘Calmness’가 있었다.
+                    골동품 가게 로고 재단장을 위해, 이웃집 가게 점장님들을 통해 프리랜서 디자이너 김은빈을 소개받았다. 김은빈은 가게에 방문하여 이곳저곳 살피며 촬영하였다. 그녀는 사진들 중 하나를 꼽으며 맘에 든다고 하였고, 그 속에는 명상 기기인 <span class="mill">‘Calmness’ </span>가 있었다.
                   </p>
                 </div>
                 <div class="dm-text dm-record-content-box">
                   <p class="dm-text dm-record-content-date">MCM30. 03. 18.</p>
                   <p class="dm-text dm-record-content">
-                    처음 컨택 후 이 주가 지났을 무렵, 김은빈은 로고 시안과 함께 가게에 방문했다. 로고 선정에 대한 논의 후에 그녀는 가게를 둘러보았고, 명상 기기 ‘Calmness’ 앞에서 시선이 자주 머물렀다. 디자인 비용 대신 제품을 구매할 수 있냐고 물어 흔쾌히 승낙했고, 소정의 수고비용과 함께 명상 기기 ‘Calmness’를 드렸다.
+                    처음 컨택 후 이 주가 지났을 무렵, 김은빈은 로고 시안과 함께 가게에 방문했다. 로고 선정에 대한 논의 후에 그녀는 가게를 둘러보았고, 명상 기기 <span class="mill">‘Calmness’</span> 앞에서 시선이 자주 머물렀다. 디자인 비용 대신 제품을 구매할 수 있냐고 물어 흔쾌히 승낙했고, 소정의 수고비용과 함께 명상 기기 <span class="mill">‘Calmness’ </span>를 드렸다.
                   </p>
                 </div>
                 <div class="dm-text dm-record-content-box">
@@ -110,7 +116,7 @@
                     김은빈은 로고가 완성되었다며, 로고 최종본을 가지고 가게에 방문하였다. 로고는 정말로 멋있었고, 그녀는 이게 다 명상 기기 덕분이라고 말했다.
                   </p>
                   <p class="dm-text dm-record-content">
-                    “기분 탓인지는 모르겠지만, ‘Calmness’를 접한 후에 머리가 맑아지고 해야 할 일을 척척 해내게 돼요,”
+                    “기분 탓인지는 모르겠지만, <span class="mill">‘Calmness’ </span>를 접한 후에 머리가 맑아지고 해야 할 일을 척척 해내게 돼요,”
                   </p>
                 </div>
                 <div class="dm-text dm-record-content-box">
@@ -153,18 +159,21 @@
       </div>
     </section>
     <section class="object-video">
-      <video
+      <iframe class="video"
+      src="https://player.vimeo.com/video/801111897?h=547efeafc7" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+      <!-- <video
         class="video"
         controls
         width="250"
         src="./images/video-phy02.mp4"
         ttype="video/mp4"
-      ></video>
+      ></video> -->
     </section>
     <section class="profile">
       <img class="profile-img" src="/images/profile-img.png" />
-      <p class="profile-name">Subin Kim</p>
-      <p class="profile-link">@prizmmm_kim</p>
+      <p class="profile-name">Soobin Kim</p>
+      <a href="https://www.behance.net/Jei_artsv" class="profile-link"><b>Behance</b> jei_</a>
     </section>
     <footer>
       <div class="inner">
@@ -212,7 +221,7 @@
               </div>
               <div class="object-box">
                 <p class="object-name">Gyeongrok Kwon</p>
-                <p class="object-name">Subin Kim</p>
+                <p class="object-name">Soobin Kim</p>
                 <p class="object-name">Soorin Han</p>
               </div>
             </div>
