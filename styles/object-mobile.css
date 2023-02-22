@@ -22,7 +22,7 @@
   header .inner .header-logo {
     position: relative;
     left: calc(50vw - 60px);
-    top: 2px;
+    top: 6px;
     width: 60px;
   }
   .black-bg {
@@ -76,7 +76,7 @@
     margin-top: -5px;
     width: 100vw;
     height: 140vw;
-    background-image: url("../images/phy-backgroundL.png");
+
     background-size: 100vw;
     margin-bottom: 30px;
   }
@@ -96,7 +96,6 @@
     margin-top: -5px;
     width: 100vw;
     height: 160vw;
-    background-image: url("../images/phy-backgroundR.png");
     background-size: 100vw;
     position: relative;
   }
@@ -189,6 +188,103 @@
     width: 500px;
     left: 650px;
   }
+  .detailmain-section
+    .inner
+    .detailmain-1div
+    .object-items
+    .object-item.safe01-item-01 {
+    width: 300px;
+    left: 0;
+  }
+  .detailmain-section
+    .inner
+    .detailmain-1div
+    .object-items
+    .object-item.safe02-item-01 {
+    width: 300px;
+    left: 0;
+  }
+  .detailmain-section
+    .inner
+    .detailmain-1div
+    .object-items
+    .object-item.love01-item-01 {
+    width: 300px;
+    left: 0;
+  }
+  .detailmain-section
+    .inner
+    .detailmain-1div
+    .object-items
+    .object-item.love02-item-01 {
+    width: 300px;
+    left: 0;
+  }
+  .detailmain-section
+    .inner
+    .detailmain-1div
+    .object-items
+    .object-item.love03-item-01 {
+    width: 300px;
+    left: 0;
+  }
+  .detailmain-section
+    .inner
+    .detailmain-1div
+    .object-items
+    .object-item.est01-item-01 {
+    width: 80vw;
+    margin: 0 auto;
+    position: relative;
+    left: 0;
+    top: 00px;
+  }
+  .detailmain-section
+    .inner
+    .detailmain-1div
+    .object-items
+    .object-item.est01-item-02 {
+    width: 80vw;
+    margin: 0 auto;
+    position: relative;
+    left: 0;
+    top: 1000px;
+  }
+  .detailmain-section
+    .inner
+    .detailmain-1div
+    .object-items
+    .object-item.est01-item-03 {
+    width: 40vw;
+    top: 1000px;
+    margin: 0 auto;
+    position: relative;
+    left: 25vw;
+  }
+  .detailmain-section
+    .inner
+    .detailmain-1div
+    .object-items
+    .object-item.est02-item-01 {
+    width: 300px;
+    left: 0;
+  }
+  .detailmain-section
+    .inner
+    .detailmain-1div
+    .object-items
+    .object-item.self01-item-01 {
+    width: 300px;
+    left: 0;
+  }
+  .detailmain-section
+    .inner
+    .detailmain-1div
+    .object-items
+    .object-item.self02-item-01 {
+    width: 300px;
+    left: 0;
+  }
 
   /* text */
   .pre {
@@ -247,8 +343,8 @@
     left: 30px;
     top: 50px;
     font-weight: 500;
-    font-size: 11px;
-    line-height: 20px;
+    font-size: 10px;
+    line-height: 14px;
   }
   .detailmain-section .inner .detailmain-2div .dm-use {
     position: relative;
@@ -263,7 +359,7 @@
   }
   .detailmain-section .inner .detailmain-2div .dm-use .dm-use-cont {
     font-weight: 500;
-    line-height: 14px;
+    line-height: 15px;
     margin-bottom: 15px;
   }
   .detailmain-section .inner .detailmain-2div .detailmain-2div-R-2 .dm-text {
@@ -314,10 +410,10 @@
     .dm-text.dm-record-content-date {
     font-family: "miller-text";
     font-style: italic;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 600;
     text-decoration-line: underline;
-    margin-bottom: 4px;
+    margin-bottom: 3px;
     padding-left: 30px;
   }
   .detailmain-section
@@ -325,11 +421,11 @@
     .detailmain-2div
     .detailmain-2div-R-2
     .dm-text.dm-record-content {
-    width: calc(100vw - 70px);
+    width: calc(100vw - 20vw);
     font-weight: 400;
-    line-height: 16.5px;
+    line-height: 15px;
     margin: 0 0 5px 40px;
-    font-size: 10.5px;
+    font-size: 10px;
   }
   .detailmain-section
     .inner
