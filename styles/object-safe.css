@@ -17,6 +17,13 @@ body {
   background-size: 100%;
   background-attachment: fixed;
 }
+@media (max-width: 800px) {
+  body {
+    background-image: url("../images/phy-background-m.png");
+    background-size: 100%;
+    background-attachment: fixed;
+  }
+}
 p {
   margin: 0px;
 }
@@ -38,17 +45,16 @@ header {
   position: fixed;
   z-index: 10;
 }
+header .inner .index {
+  position: relative;
+  width: 40px;
+  padding: 5px;
+}
 header .inner .header-logo {
   position: relative;
   left: -8px;
   top: 7px;
   width: 140px;
-}
-header .inner .index {
-  position: absolute;
-  right: 0;
-  top: 20px;
-  width: 50px;
 }
 .black-bg {
   width: 100%;
