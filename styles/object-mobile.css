@@ -1,12 +1,39 @@
 /* 모바일 */
 /* 모바일 */
 /* 모바일 */
+.mobile-bg {
+  display: none;
+}
 @media (max-width: 800px) {
   .inner {
     width: 100vw;
     margin: 0 auto;
     position: absolute;
   }
+  .mobile-bg {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  .mobile-bg .bg-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .mobile-bg .bg-wrap .bg {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+  }
+
   header {
     width: 100vw;
     height: 80px;
