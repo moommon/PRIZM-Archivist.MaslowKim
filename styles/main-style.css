@@ -220,9 +220,11 @@ header .inner .header-logo {
     margin-bottom: 50px;
   }
   .mobile .scroll-logo .logoimg {
+    position: relative;
     width: 80vw;
     height: auto;
-    margin: 30vh 0;
+    margin: 30vh auto;
+    /* left: calc(50vw - 40vw); */
   }
   .mobile .scroll-box {
     margin: 20px;
