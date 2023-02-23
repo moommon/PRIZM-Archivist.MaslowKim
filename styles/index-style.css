@@ -54,7 +54,7 @@ header .inner .header-logo {
   width: 180px;
   border: 1px solid #fff;
   padding: 12px 30px 15px;
-  left: calc(50% - 90px);
+  left: calc(50% - 105px);
   transition: 0.4s;
 }
 .teaser .enter-button:hover {

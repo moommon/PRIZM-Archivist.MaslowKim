@@ -19,7 +19,7 @@ body {
 }
 @media (max-width: 800px) {
   body {
-    background-image: url("../images/phy-background-m.png");
+    background-image: url("../images/safe-background-m.png");
     background-size: 100%;
     background-attachment: fixed;
   }

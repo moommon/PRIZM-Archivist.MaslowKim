@@ -19,8 +19,8 @@ body {
 }
 @media (max-width: 800px) {
   body {
-    background-image: url("../images/phy-background-m.png");
-    background-size: 100%;
+    background-image: url("../images/love-background-m.png");
+    background-size: 100vw;
     background-attachment: fixed;
   }
 }
@@ -230,34 +230,8 @@ header .inner .header-logo {
   .detailmain-1div
   .object-items
   .object-item.love02-item-01 {
-  width: 250px;
-  left: 10px;
-}
-.detailmain-section
-  .inner
-  .detailmain-1div
-  .object-items
-  .object-item.love02-item-02 {
-  width: 250px;
-  left: 280px;
-}
-.detailmain-section
-  .inner
-  .detailmain-1div
-  .object-items
-  .object-item.love02-item-03 {
-  width: 250px;
-  top: 270px;
-  left: 10px;
-}
-.detailmain-section
-  .inner
-  .detailmain-1div
-  .object-items
-  .object-item.love02-item-04 {
-  width: 250px;
-  top: 270px;
-  left: 280px;
+  width: 500px;
+  left: 40px;
 }
 .detailmain-section
   .inner
