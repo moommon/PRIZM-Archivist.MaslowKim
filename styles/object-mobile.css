@@ -482,19 +482,19 @@
   }
   .detailmain-section .inner .detailmain-2div .dm-use {
     position: relative;
-    width: 260px;
+    width: 280px;
     left: 30px;
     top: 80px;
-    font-size: 9px;
+    font-size: 8px;
   }
   .detailmain-section .inner .detailmain-2div .dm-use .dm-use-title {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     font-weight: 600;
   }
   .detailmain-section .inner .detailmain-2div .dm-use .dm-use-cont {
     font-weight: 500;
-    line-height: 15px;
-    margin-bottom: 15px;
+    line-height: 14px;
+    margin-bottom: 8px;
   }
   .detailmain-section .inner .detailmain-2div .detailmain-2div-R-2 .dm-text {
     position: relative;
