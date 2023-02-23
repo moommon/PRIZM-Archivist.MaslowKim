@@ -22,6 +22,7 @@ body {
     background-image: url("../images/est-background-m.png");
     background-size: 100%;
     background-attachment: fixed;
+    background-position: top;
   }
 }
 p {

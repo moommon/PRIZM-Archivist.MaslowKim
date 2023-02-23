@@ -49,7 +49,7 @@
   }
   header .inner .header-logo {
     position: relative;
-    left: calc(50vw - 67.5px);
+    left: calc(50vw - 67px);
     top: 6px;
     width: 60px;
   }

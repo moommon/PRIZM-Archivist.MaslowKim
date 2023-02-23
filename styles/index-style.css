@@ -37,6 +37,10 @@ header .inner .header-logo {
 .teaser {
   text-align: center;
   width: 100vw;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
 }
 .teaser .teaservideo {
   width: 100vw;
@@ -54,7 +58,8 @@ header .inner .header-logo {
   width: 180px;
   border: 1px solid #fff;
   padding: 12px 30px 15px;
-  left: calc(50% - 105px);
+  /* left: calc(50% - 105px); */
+  margin: 0 auto;
   transition: 0.4s;
 }
 .teaser .enter-button:hover {
