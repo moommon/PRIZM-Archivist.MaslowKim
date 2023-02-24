@@ -19,7 +19,7 @@ body {
 }
 @media (max-width: 800px) {
   body {
-    background-image: url("../images/love-background-m.png");
+    background-image: url("../images/love-background-mm.png");
     background-size: 100vw;
     background-attachment: fixed;
   }

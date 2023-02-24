@@ -74,6 +74,7 @@ header .inner .header-logo {
 .slider li:first-child {
   width: 1200px;
   margin: 0 200px 0 0;
+  top: 0px;
   transition: 0.4s;
 }
 .slider li:first-child:hover {

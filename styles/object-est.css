@@ -19,7 +19,7 @@ body {
 }
 @media (max-width: 800px) {
   body {
-    background-image: url("../images/est-background-m.png");
+    background-image: url("../images/est-background-mm.png");
     background-size: 100%;
     background-attachment: fixed;
     background-position: top;
